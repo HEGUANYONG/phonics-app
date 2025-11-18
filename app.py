@@ -243,7 +243,7 @@ if text.strip():
     total_syllables = 0
     total_words = 0
 
-    st.markdown("### ① 拆音节、音标、释义与规则说明")
+    st.markdown("### 拆音节、音标、释义与规则说明")
 
     for w in words:
         # 去掉标点，只保留字母和 '
@@ -395,7 +395,7 @@ else:
 history_dict = st.session_state["history"]
 
 st.markdown("---")
-st.markdown("### ② 查询历史（按单词去重，本次运行）")
+st.markdown("### 查询历史（按单词去重，本次运行）")
 
 if not history_dict:
     st.write("暂无历史记录。")
